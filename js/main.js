@@ -202,8 +202,8 @@ function setMeals(meals) {
         cols += ` <div class="col-md-3">
             <div class="item ">
               <img src="${meals[i].strMealThumb}" class="w-100 rounded-3" alt="not-loaded">
-              <div class="info-item rounded-3">
-                  <div class="content-info" onclick="getMealDetails(${meals[i].idMeal})">
+              <div class="info-item rounded-3" onclick="getMealDetails(${meals[i].idMeal})">
+                  <div class="content-info" >
                   <h3 class="">${meals[i].strMeal}</h3>
                   </div>
               </div>
