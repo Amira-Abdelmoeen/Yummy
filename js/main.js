@@ -125,10 +125,10 @@ async function Search(event) {
     removeContainer()
     event.preventDefault();
     document.querySelector("#search-box").innerHTML = `
-            <div class="col-md-5 mt-4">
+            <div class="col-md-5 mt-5">
                 <input type="text" class="form-control p-2 bg-black text-white" onkeyup="searchByName()" placeholder="Search By Name">
             </div>
-            <div class="col-md-5 mt-4">
+            <div class="col-md-5 mt-5">
                 <input type="text" class="form-control p-2 bg-black text-white" maxlength="1" onkeyup="searchByFirstLetter()" placeholder="Search By First Letter">
             </div>
         `
